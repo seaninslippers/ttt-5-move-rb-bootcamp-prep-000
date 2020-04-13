@@ -8,5 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
-  puts "user_input - 1"
+  integer_user_input = user_input.to_i
+  index = integer_user_input - 1
+  return index
 end
